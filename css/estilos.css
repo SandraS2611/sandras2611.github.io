@@ -15,12 +15,18 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
-    background-color: rgb(129, 83, 148);
     padding: var(--padding-contenedor);
 }
 
 .inicio {
-    
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-width: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+
 }
 
 .nav {
