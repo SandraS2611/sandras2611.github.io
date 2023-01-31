@@ -7,9 +7,15 @@ body{
 
 .container-fluid{
     background-color: rgba(70, 131, 180, 0.5);
+    padding: 0;
+}
+
+.bg-body-tertiary {
+       padding: 0;
 }
 
 .navbar-brand{
     font-size: 40px;
     color: rgba(94, 16, 104, 0.801);
+    padding: 0;
 }
