@@ -16,7 +16,7 @@ li {
 }
 
 .navbar-toggler{
-    color: rgb(235, 180, 210);
+    color: rgb(154, 123, 238);
 }
 
 .carousel-inner {
@@ -31,6 +31,10 @@ li {
 
 .navbar-brand {
     font-size: 40px;
-    color: rgba(94, 16, 104, 0.801);
+    color: rgba(160, 32, 177, 0.801);
     padding: 0;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: rgba(212, 63, 75, 0.507);
 }
