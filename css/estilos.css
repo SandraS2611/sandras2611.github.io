@@ -1,24 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Kalam:wght@300;700&family=Ribeye&family=Satisfy&display=swap');
 
-body{
+body {
     background-color: rgba(105, 90, 205, 0.603);
     font-family: 'Caveat', cursive;
 }
 
-.container-fluid{
+li {
+    font-family: 'Ribeye', cursive;
+    font-size: 25px;
+}
+
+.container-fluid {
     background-color: rgba(70, 131, 180, 0.5);
     padding: 0;
 }
-.carousel-inner{
+
+.navbar-toggler{
+    color: rgb(235, 180, 210);
+}
+
+.carousel-inner {
     display: block;
     width: 100%;
     height: 30%;
 }
+
 .bg-body-tertiary {
-       padding: 0;
+    padding: 0;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 40px;
     color: rgba(94, 16, 104, 0.801);
     padding: 0;
