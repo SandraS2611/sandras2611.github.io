@@ -9,7 +9,11 @@ body{
     background-color: rgba(70, 131, 180, 0.5);
     padding: 0;
 }
-
+.carousel-inner{
+    display: block;
+    width: 100%;
+    height: 30%;
+}
 .bg-body-tertiary {
        padding: 0;
 }
