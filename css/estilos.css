@@ -24,7 +24,7 @@ h1{
 .container-imagen img {
     margin:10px auto;
 	display:block;
-    width: 300px;
+    width: 200px;
     clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
 }
 
@@ -37,12 +37,12 @@ h1{
     color: rgb(154, 123, 238);
 }
 
-
 .carousel-inner {
     display: block;
     width: 100%;
     height: 30%;
 }
+
 
 .bg-body-tertiary {
     padding: 0;
