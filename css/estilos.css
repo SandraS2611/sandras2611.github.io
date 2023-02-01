@@ -5,17 +5,12 @@ body {
     font-family: 'Caveat', cursive;
 }
 
-li {
-    font-family: 'Ribeye', cursive;
-    font-size: 25px;
-}
+
 
 h1{
     color: blueviolet;
 }
 
-
-}
 .container-fluid {
     width: 100%;
     height: 200px;
@@ -37,8 +32,11 @@ h1{
 }
 
 .form-control{
+    color: honeydew;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkslateblue;
+    border-color: silver;
 }
 
 .navbar-toggler{
