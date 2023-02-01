@@ -10,8 +10,12 @@ li {
     font-size: 25px;
 }
 
+h1{
+    color: blueviolet;
+}
+
 .container-fluid {
-    background-color: rgba(70, 131, 180, 0.5);
+    background-color: rgba(240, 214, 250, 0.5);
     padding: 0;
 }
 
@@ -22,18 +26,15 @@ li {
     clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
 }
 
+.form-control{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .navbar-toggler{
     color: rgb(154, 123, 238);
 }
 
-.sr-only{
-    font-size: 20px;
-    color: darkblue;
-}
-.form-control{
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-}
 
 .carousel-inner {
     display: block;
