@@ -28,6 +28,11 @@ h1{
     clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
 }
 
+.container-imagen h1{
+    color: beige;
+    font-family: 'Kalam', cursive
+}
+
 .form-control{
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
