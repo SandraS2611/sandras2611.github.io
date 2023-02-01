@@ -45,6 +45,12 @@ h1{
     color: rgb(154, 123, 238);
 }
 
+.btn-outline-primary{
+    color: honeydew;
+    background-color: darkslateblue;
+    border-color: silver;
+} 
+
 .carousel-inner {
     display: block;
     width: 100%;
