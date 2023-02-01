@@ -31,6 +31,7 @@ h1{
 }
 
 .container-imagen h1{
+    text-align: center;
     color: beige;
     font-family: 'Kalam', cursive
 }
