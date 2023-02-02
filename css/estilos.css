@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Kalam:wght@300;700&family=Ribeye&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     background-color: rgba(105, 90, 205, 0.603);
