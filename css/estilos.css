@@ -37,6 +37,7 @@ ul{
     font-size: 25px;
 }
 
+/* -Inicio- Aqui va todo lo que esta dentro del navbar */
 .navbar{
     background-image: url(../img/fondo.jpg);
 }
@@ -107,10 +108,13 @@ ul{
     flex-grow: 1;
     align-items: end;
 }
+/* -Fin- Aqui termina todo lo que va dentro del navbar  */
 
+/* Desde aqui va la configuracion de las Tarjetas */
 .tarjeta{
     padding: auto;
     display: flex;
     width: auto;
 }
+/* Aqui termina la configuracion de las Tarjetas*/
 
