@@ -18,6 +18,10 @@ h1{
     color: blueviolet;
 }
 
+.navbar{
+    background-image: url(../img/images1.png);
+}
+
 .container-fluid {
     display: flex;
     flex-wrap: none;
