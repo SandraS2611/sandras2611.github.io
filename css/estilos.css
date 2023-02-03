@@ -6,21 +6,24 @@
 }
 
 body {
-    background-color: rgba(105, 90, 205, 0.603);
+    background-image: url(../img/morado.avif);
     font-family: 'Caveat', cursive;
-}
+    background-repeat: no-repeat;
+    background-size: cover;
+        }
 
-header{
-background-color: lavender;
-}
 
 h1{
     color: aliceblue;
     font-size: 50px;
 }
 
+h3{
+    color: lavenderblush;
+}
+
 .navbar{
-    background-image: url(../img/images1.png);
+    background-image: url(../img/fondo.jpg);
 }
 
 .container-fluid {
@@ -40,8 +43,10 @@ h1{
 .container-imagen img {
     margin:10px auto;
 	display:block;
-    width: 200px;
-    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    justify-content: right;
+    width: 400px;
+    height: 250px;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
 }
 
 .container-imagen h1{
@@ -81,3 +86,4 @@ h1{
     flex-grow: 1;
     align-items: end;
 }
+
