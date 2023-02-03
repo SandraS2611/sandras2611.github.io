@@ -10,6 +10,8 @@ body {
     font-family: 'Caveat', cursive;
     background-repeat: no-repeat;
     background-size: cover;
+    width: auto;
+    height: auto;
         }
 
 
@@ -87,3 +89,6 @@ h3{
     align-items: end;
 }
 
+.tarjeta1{
+    display: block;
+}
