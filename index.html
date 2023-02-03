@@ -19,49 +19,55 @@
   <header>
     <nav class="navbar bg-body-tertiary">
       <div class="row col-auto">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa">
-          <img src="img/ap4 1.png" alt="Logo" width="360" height="200" class="d-inline-block align-text-center"></a>
-        
-        <h1><strong>Mi Proyecto CV</strong></h1>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa">
+            <img src="img/ap4 1.png" alt="Logo" width="360" height="200" class="d-inline-block align-text-center"></a>
 
-        <div class="containerLogin">
-          <div class="form-group">
-            <input id="correo" type="text" class="form-control" name="username" placeholder="Escribe correo">
-            <input id="contraseña" type="password" class="form-control" name="password" placeholder="Escribe contraseña">
-          <br>
-          <button id="boton" class="boton" onclick="login()">Entrar</button>
+          <h1><strong>Mi Proyecto CV</strong></h1>
+
+          <div class="containerLogin">
+            <div class="form-group">
+              <input id="correo" type="text" class="form-control" name="username" placeholder="Escribe correo">
+              <input id="contraseña" type="password" class="form-control" name="password"
+                placeholder="Escribe contraseña">
+              <br>
+              <button id="boton" class="boton" onclick="login()">Entrar</button>
+            </div>
           </div>
-        </div>
-      
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="menu">
-        <div class="row"
-        <ul class="nav justify-content-center">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-          <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-            <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-            <label class="btn btn-outline-primary" for="btncheck1">Sobre Mi</label>
-
-            <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-              <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-              <label class="btn btn-outline-primary" for="btncheck1"> Cursos Realizados</label>
+          <div class="collapse navbar-collapse" id="menu">
+            <div class="row" class="nav justify-content-center">
 
               <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck1">Informacion Personal</label>
+                <label class="btn btn-outline-light active" for="btncheck1">Sobre Mi</label>
+              </div>
 
-                <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group"></div>
+              <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck1">Contacto</label>
-        </ul>
-      </div>    
-      </div>
-    </header>
+                <label class="btn btn-outline-light active" for="btncheck1"> Cursos Realizados</label>
+              </div>
+
+              <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                <label class="btn btn-outline-light active" for="btncheck1">Informacion Personal</label>
+              </div>
+
+              <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                <label class="btn btn-outline-light active" for="btncheck1">Contacto</label>
+              </div>
+
+            </div>
+          </div>
+        </div>
+    </nav>
+  </header>
 
   <div class="container-imagen">
     <img src="./img/perfil.jpg" alt="foto de perfil">

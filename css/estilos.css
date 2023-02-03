@@ -74,3 +74,10 @@ h1{
     color: rgba(160, 32, 177, 0.801);
     padding: 0;
 }
+
+.navbar-collapse {
+    width: auto;
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: end;
+}
