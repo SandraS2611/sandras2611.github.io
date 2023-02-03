@@ -55,13 +55,10 @@ ul{
     margin: 0;
 }
 
-.container-imagen img {
-    margin:10px auto;
-	display:block;
-    justify-content: right;
-    width: 400px;
-    height: 250px;
-    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+
+.perfil{
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    width: 25%;
 }
 
 .container-imagen h1{
