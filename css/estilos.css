@@ -111,14 +111,9 @@ ul{
     align-items: end;
 }
 
-.tarjeta1{
+.tarjeta{
     padding: auto;
     display: flex;
     width: auto;
 }
 
-.tarjeta2{
-    padding: auto;
-    display: flex;
-    width: auto;
-}
