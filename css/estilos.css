@@ -16,13 +16,25 @@ body {
 
 
 h1{
-    color: aliceblue;
-    border-color: yellowgreen;
+    color: rgb(240, 255, 241);
     font-size: 50px;
+}
+
+h2{
+    color: rgb(168, 87, 144) ;
+    font-size: 40px;
 }
 
 h3{
     color: lavenderblush;
+    font-size: 30px;
+}
+
+ul{
+    display: block;
+    color: tomato;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
 }
 
 .navbar{
@@ -100,5 +112,13 @@ h3{
 }
 
 .tarjeta1{
-    display: block;
+    padding: auto;
+    display: flex;
+    width: auto;
+}
+
+.tarjeta2{
+    padding: auto;
+    display: flex;
+    width: auto;
 }
