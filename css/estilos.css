@@ -17,6 +17,7 @@ body {
 
 h1{
     color: aliceblue;
+    border-color: yellowgreen;
     font-size: 50px;
 }
 
@@ -71,6 +72,15 @@ h3{
     background-color: rgba(26, 145, 220, 0.539);
     border-color: silver;
 } 
+
+.boton {
+    width: 250px;
+    border-color: aliceblue;
+    border-radius: .5rem;
+    background-color: aqua;
+    color: darkmagenta;
+    font-size: 24px;
+  }
 
 .bg-body-tertiary { 
     padding: 0;
