@@ -48,30 +48,30 @@
 
               <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                <label class="btn btn-outline-light active" for="btncheck1">Sobre Mi</a></label>
+                <label class="btn btn-outline-light active" for="btncheck1"><a href="#informacion-personal">Informacion
+                    Personal</a></label>
               </div>
 
               <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                <label class="btn btn-outline-light active" for="btncheck1"><a href="cursos-realizados">Cursos
+                <label class="btn btn-outline-light active" for="btncheck1"><a href="#sobre-mi">Sobre Mi</a></label>
+              </div>
+
+              <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                <label class="btn btn-outline-light active" for="btncheck1"><a href="#cursos-realizados">Cursos
                     Realizados</a></label>
               </div>
 
               <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                <label class="btn btn-outline-light active" for="btncheck1">Informacion Personal</label>
+                <label class="btn btn-outline-light active" for="btncheck1"><a href="#contacto">Contacto</a></label>
               </div>
 
               <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                <label class="btn btn-outline-light active" for="btncheck1">Contacto</label>
+                <label class="btn btn-outline-light active" for="btncheck1"><a href="#redes">Redes</a></label>
               </div>
-
-              <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                <label class="btn btn-outline-light active" for="btncheck1">Redes</label>
-              </div>
-
             </div>
           </div>
         </div>
@@ -79,37 +79,43 @@
   </header>
 
   <br>
-  <section class="tarjeta1">
+
+  <section class="tarjeta" id="informacion">
     <div class="perfil">
-    <img src="../Ticmas_cv/img/perfil.jpg" class="card-img-top" alt="Informacion Personal>
-    <div class="tarjeta1-body">
-      <div class="tarjeta1-text">
-        <h2>Informacion Personal</h2>
-        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ab dolorem consectetur ipsum possimus 
-          temporibus blanditiis, sapiente error cumque ipsa quia quod expedita, nostrum excepturi rem. Sapiente optio
-           earum maxime.</h3>
-      </div>
+    <img src="../Ticmas_cv/img/perfil.jpg" class="card-img-top" alt="Informacion Personal></div>
+    <div class=" tarjeta-body">
+    <div class="tarjeta-text">
+      <a name="informacion-personal" />
+      <h2>Informacion Personal</h2>
+      <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ab dolorem consectetur ipsum possimus
+        temporibus blanditiis, sapiente error cumque ipsa quia quod expedita, nostrum excepturi rem. Sapiente optio
+        earum maxime.</h3>
     </div>
     </div>
   </section>
+
   <br>
 
-    <section class="tarjeta">
-    <img src="../Ticmas_cv/img/naturaleza-1.webp" class="card-img-top" alt="sobre mi">
+  <section class="tarjeta" id="personal">
+    <img src="../Ticmas_cv/img/reapertura_estadio_unico.jpg" class="card-img-top" alt="sobre mi">
     <div class="tarjeta-body">
       <div class="tarjeta-text">
+        <a name="sobre-mi" />
         <h2>SOBRE MI</h2>
         <h3>Mi nombre es Sandra, soy de la provincia de Santiago el Estero, tengo 42 años.
           Y este es mi primer proyecto para Ticmas de Argentina Programa 4.0</h3>
       </div>
     </div>
   </section>
- 
+
   <br>
-  <section class="tarjeta">
-    <img src="../Ticmas_cv/img/compu.jpg" class="card-img-top" alt="Cursos Realizados">
+
+  <section class="tarjeta" id="cursos">
+    <a name="cursos-realizados" id="cursos-realizados"></a>
+    <img src="../Ticmas_cv/img/Cer.jpg" class="card-img-top" alt="Cursos Realizados">
     <div class="tarjeta-body">
       <div class="tarjeta-text">
+        <a name="cursos-realizados" />
         <h2>Cursos Realizados</h2>
         <ul>
           <li>Curso1</li>
@@ -122,9 +128,34 @@
   </section>
 
 
+  <div class="Carousel">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../Certificados/Alfabetizacion Digital.pdf" class="d-block w-100" alt="Alfabetizacion Digital">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+
 </body>
 <script src="main.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 </html>

@@ -56,12 +56,6 @@ ul{
     margin: 0;
 }
 
-
-.perfil{
-    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-    width: 25%;
-}
-
 .container-imagen h1{
     text-align: center;
     color: beige;
@@ -115,6 +109,11 @@ ul{
     padding: auto;
     display: flex;
     width: auto;
+}
+
+.perfil{
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    width: 25%;
 }
 /* Aqui termina la configuracion de las Tarjetas*/
 
