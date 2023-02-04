@@ -57,7 +57,6 @@ ul{
 }
 
 .container-imagen h1{
-    text-align: center;
     color: beige;
     font-family: 'Kalam', cursive
 }
@@ -88,6 +87,7 @@ ul{
 
 .bg-body-tertiary { 
     padding: 0;
+    overflow: auto;
 }
 
 .navbar-brand {
