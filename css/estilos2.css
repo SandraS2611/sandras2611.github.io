@@ -11,10 +11,13 @@ body {
 }
 
 header{
-background-color: lavender;
+background-color: rgb(240, 247, 153);
 }
 
 h1{
     text-align: center;
-    color: chartreuse;
+    color: rgba(137, 105, 233, 0.733);
+}
+p{
+    font-size: 20px;
 }
