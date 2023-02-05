@@ -21,12 +21,12 @@ h1{
 }
 
 h2{
-    color: rgb(168, 87, 144) ;
+    color: azure;
     font-size: 40px;
 }
 
 h3{
-    color: lavenderblush;
+    color: coral;
     font-size: 30px;
 }
 
@@ -35,6 +35,14 @@ ul{
     color: tomato;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
+}
+
+ol{
+    display: block;
+    color: tomato;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+
 }
 
 /* -Inicio- Aqui va todo lo que esta dentro del navbar */
