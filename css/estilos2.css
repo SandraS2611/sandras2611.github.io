@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgba(105, 90, 205, 0.603);
+    background-color: darkseagreen;
     font-family: 'Caveat', cursive;
 }
 
@@ -15,5 +15,6 @@ background-color: lavender;
 }
 
 h1{
-    color: blueviolet;
+    text-align: center;
+    color: chartreuse;
 }
