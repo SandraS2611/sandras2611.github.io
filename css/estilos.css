@@ -119,9 +119,12 @@ ol{
     width: auto;
 }
 
-.perfil{
+.perfil img{
+    width: 35%;
+    height: 350px;
+    justify-content: center;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-    width: 25%;
+   
 }
 /* Aqui termina la configuracion de las Tarjetas*/
 
