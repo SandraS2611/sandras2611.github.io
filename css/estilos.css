@@ -95,7 +95,7 @@ ol{
 
 .bg-body-tertiary { 
     padding: 0;
-    overflow: auto;
+    margin: 0;
 }
 
 .navbar-brand {
