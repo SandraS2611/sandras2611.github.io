@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Kalam:wght@300;700&family=Ribeye&family=Satisfy&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root{
+    --facebook: #339FFF;
+    --instagram: #DE7817;
+    --whatsapp: #278A13 ;
+    --github: #4D0E22 ;
+    --discord: #8517DE ;
+    --linkedin: #e64d7b ;
 }
 
 body {
@@ -12,32 +22,32 @@ body {
     background-size: cover;
     width: auto;
     height: auto;
-        }
+}
 
 
-h1{
+h1 {
     color: rgb(240, 255, 241);
     font-size: 50px;
 }
 
-h2{
+h2 {
     color: azure;
     font-size: 40px;
 }
 
-h3{
+h3 {
     color: coral;
     font-size: 30px;
 }
 
-ul{
+ul {
     display: block;
     color: tomato;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
 }
 
-ol{
+ol {
     display: block;
     color: tomato;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -46,7 +56,7 @@ ol{
 }
 
 /* -Inicio- Aqui va todo lo que esta dentro del navbar */
-.navbar{
+.navbar {
     background-image: url(../img/fondo.jpg);
 }
 
@@ -59,30 +69,30 @@ ol{
     padding: 0;
 }
 
-.row{
+.row {
     width: 100%;
     margin: 0;
 }
 
-.container-imagen h1{
+.container-imagen h1 {
     color: beige;
     font-family: 'Kalam', cursive
 }
 
-.navbar-toggler{
+.navbar-toggler {
     color: aliceblue;
     background-color: transparent;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     background-color: aliceblue;
 }
 
-.btn-outline-primary{
+.btn-outline-primary {
     color: honeydew;
     background-color: rgba(26, 145, 220, 0.539);
     border-color: silver;
-} 
+}
 
 .boton {
     width: 250px;
@@ -91,11 +101,13 @@ ol{
     background-color: aqua;
     color: darkmagenta;
     font-size: 24px;
-  }
+}
 
-.bg-body-tertiary { 
+.bg-body-tertiary {
     padding: 0;
     margin: 0;
+    max-width: 100%;
+    min-height: auto;
 }
 
 .navbar-brand {
@@ -110,30 +122,33 @@ ol{
     flex-grow: 1;
     align-items: end;
 }
+
 /* -Fin- Aqui termina todo lo que va dentro del navbar  */
 
 /* Desde aqui va la configuracion de las Tarjetas */
-.tarjeta{
+.tarjeta {
     padding: auto;
     display: flex;
     width: auto;
 }
 
-.perfil img{
+.perfil img {
     width: 35%;
     height: 350px;
     justify-content: center;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-   
+
 }
+
 /* Aqui termina la configuracion de las Tarjetas*/
 
 /* Aqui va la conf. del Carousel*/
 
-.carousel-item{
+.carousel-item {
     width: 35px;
     height: auto;
 }
+
 /* Aqui termina la conf. del Carousel*/
 
 /* formulario de mensajes*/
@@ -145,18 +160,18 @@ form {
     padding: 20px;
     border: 1px solid #33d26d;
     border-radius: 5px;
-  }
-  
-  label {
+}
+
+label {
     display: block;
     margin-bottom: 10px;
     font-size: 28px;
     font-weight: bold;
     color: beige;
-  }
-  
-  input,
-  textarea {
+}
+
+input,
+textarea {
     width: 100%;
     padding: 12px 20px;
     margin-bottom: 20px;
@@ -164,19 +179,78 @@ form {
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 18px;
-  }
-  
-  input[type="submit"] {
+}
+
+input[type="submit"] {
     background-color: #61de65;
     color: rgb(24, 2, 2);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
+}
+
+input[type="submit"]:hover {
     background-color: #24a533;
-  }
+}
 
 /* termina la conf de formulario de mensajes*/
+
+/* redes */
+.redes-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-container ul li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.redes-container ul li a {
+    display: block;
+    padding: 3px 7px;
+    color: yellow;
+    line-height: 50px;
+    font-size: 28px;
+    box-shadow: 0 3px 5px 0 rgb(0, 0, 0, .2);
+    transition: .2s;
+}
+
+.redes-container ul:hover a {
+    filter: blur(2px);
+}
+
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(2.05);
+    box-shadow: 0 5px 5px 0 rgb(0, 0, 0, .4);
+    filter: none;
+}
+
+.redes-container ul li .facebook:hover{
+    background: var(--facebook);
+}
+
+.redes-container ul li .instagram:hover{
+    background: var(--instagram);
+}
+
+.redes-container ul li .whatsapp:hover{
+    background: var(--whatsapp);
+}
+
+.redes-container ul li .github:hover{
+    background: var(--github);
+}
+
+.redes-container ul li .discord:hover{
+    background: var(--discord);
+}
+
+.redes-container ul li .linkedin:hover{
+    background: var(--linkedin);
+}
