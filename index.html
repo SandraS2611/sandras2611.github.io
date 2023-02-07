@@ -17,62 +17,55 @@
 
 <body>
   <header>
-    <nav class="navbar bg-body-tertiary">
-      <div class="row col-auto">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa">
-            <img src="img/ap4 1.png" alt="Logo" width="360" height="200" class="d-inline-block align-text-center"></a>
+          <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa">
+                <img src="img/ap4 1.png" alt="Logo" width="360" height="200"
+                  class="d-inline-block align-text-center"></a>
 
-          <h1><strong>Mi<br>Proyecto CV<br>para TICMAS</strong></h1>
+              <h1><strong>Mi<br>Proyecto CV<br>para TICMAS</strong></h1></a>
 
-          <div class="containerLogin">
-            <br>
-            <div class="form-group">
-              <input id="correo" type="text" class="form-control" name="username" placeholder="Escribe correo">
-               <input id="contraseña" type="password" class="form-control" name="password"
-                 placeholder="Escribe contraseña">
-               <button id="boton" class="boton" onclick="login()">Entrar</button>
-            </div>
-          </div>
-
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="menu">
-            <div class="row" class="nav justify-content-center">
-
-              <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                <label class="btn btn-outline-light active" for="btncheck1"><a href="#personal">Información
-                    Personal</a></label>
+              <div class="containerLogin">
+                <br>
+                <div class="form-group">
+                  <input id="correo" type="text" class="form-control" name="username" placeholder="Escribe correo">
+                  <input id="contraseña" type="password" class="form-control" name="password"
+                    placeholder="Escribe contraseña">
+                  <button id="boton" class="boton" onclick="login()">Entrar</button>
+                </div>
               </div>
 
-              <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                <label class="btn btn-outline-light active" for="btncheck1"><a href="#formacion">Formación</a></label>
-              </div>
-
-              <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                <label class="btn btn-outline-light active" for="btncheck1"><a href="#cursos">Cursos
-                    Realizados</a></label>
-              </div>
-
-              <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                <label class="btn btn-outline-light active" for="btncheck1"><a href="#contacto">Contacto</a></label>
-              </div>
-
-              <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                <label class="btn btn-outline-light active" for="btncheck1"><a href="#redes">Redes</a></label>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h2 class="offcanvas-title" id="offcanvasNavbarLabel">Bienvenidos!</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#personal">Información Personal</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#formacion">Formación</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#cursos">Cursos Realizados</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#redes">Redes</a>
+                    </li>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-    </nav>
+          </nav>
   </header>
 
   <br>
@@ -197,20 +190,20 @@
 
 <footer>
   <a name="redes" />
-<div class="redes-container">
-   <ul>
-    <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-    <li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
-    <li><a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
-    <li><a href="#" class="github"><i class="fab fa-github"></i></a></li>
-    <li><a href="#" class="discord"><i class="fab fa-discord"></i></a></li>
-    <li><a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a></li>
-  </ul>  
-</div>
+  <div class="redes-container">
+    <ul>
+      <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+      <li><a href="#" class="github"><i class="fab fa-github"></i></a></li>
+      <li><a href="#" class="discord"><i class="fab fa-discord"></i></a></li>
+      <li><a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a></li>
+    </ul>
+  </div>
 </footer>
 
 <script src="main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
-</html> 
+</html>
