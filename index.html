@@ -47,13 +47,14 @@
 
               <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                <label class="btn btn-outline-light active" for="btncheck1"><a href="#personal">Información Personal</a></label>
+                <label class="btn btn-outline-light active" for="btncheck1"><a href="#personal">Información
+                    Personal</a></label>
               </div>
 
               <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
                 <label class="btn btn-outline-light active" for="btncheck1"><a href="#formacion">Formación</a></label>
-            </div>
+              </div>
 
               <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
@@ -102,7 +103,7 @@
         <h2>Formación</h2>
         <br>
         <ul>
-          <li>Estudios Terciarios: "I.T.S.E."  (en curso)</li>
+          <li>Estudios Terciarios: "I.T.S.E." (en curso)</li>
           <li>Estudios Universitarios: "U.N.S.E."</li>
           <li>Estudios Secundarios :"Colegio Secundario Domingo F. Sarmiento"</li>
           <li>Estudios Primarios: "Escuela Normal Manuel Belgrano"</li>
@@ -141,7 +142,7 @@
       </div>
     </div>
   </section>
-  <br>  
+  <br>
   <div class="Carousel">
     <div id="carouselExampleFade" class="carousel slide carousel-fade">
       <div class="carousel-inner">
@@ -183,6 +184,18 @@
       </button>
     </div>
   </div>
+  <br>
+
+  <form action="enviar-mensaje" method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" /><br />
+    <label for="email">Correo:</label>
+    <input type="email" id="email" name="email" /><br />
+    <label for="mensaje">Mensaje:</label><br />
+    <textarea id="mensaje" name="mensaje"></textarea><br />
+    <input type="submit" value="Enviar mensaje" />
+  </form>
+
 
 </body>
 

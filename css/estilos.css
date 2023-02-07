@@ -134,3 +134,49 @@ ol{
     width: 35px;
     height: auto;
 }
+/* Aqui termina la conf. del Carousel*/
+
+/* formulario de mensajes*/
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #33d26d;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: beige;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #730a0a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+  
+  input[type="submit"] {
+    background-color: #61de65;
+    color: rgb(24, 2, 2);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #24a533;
+  }
+
+/* termina la conf de formulario de mensajes*/
