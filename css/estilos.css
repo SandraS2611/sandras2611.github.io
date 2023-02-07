@@ -48,14 +48,6 @@ ul {
     font-size: 25px;
 }
 
-ol {
-    display: block;
-    color: tomato;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-
-}
-
 /* -Inicio- Aqui va todo lo que esta dentro del navbar */
 .navbar {
     background-image: url(../img/fondo.jpg);
