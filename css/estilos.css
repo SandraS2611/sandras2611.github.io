@@ -26,6 +26,7 @@ body {
 
 
 h1 {
+    overflow: hidden;
     color: rgb(240, 255, 241);
     font-size: 50px;
 }
@@ -106,8 +107,6 @@ ol {
 .bg-body-tertiary {
     padding: 0;
     margin: 0;
-    max-width: 100%;
-    min-height: auto;
 }
 
 .navbar-brand {
