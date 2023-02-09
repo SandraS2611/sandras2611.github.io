@@ -130,10 +130,10 @@ ul {
     width: auto;
 }
 
-.perfil img {
+#personal img{
     width: 35%;
     height: 350px;
-    justify-content: center;
+    justify-content: start;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 
 }
