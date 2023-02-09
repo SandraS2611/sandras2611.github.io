@@ -179,6 +179,10 @@ height: 400px;
 a{text-decoration: none;
 }
 
+i{
+    color: aqua;
+}
+
 /* Aqui termina la conf. del Carousel*/
 
 /* formulario de mensajes*/
