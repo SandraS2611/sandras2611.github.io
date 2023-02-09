@@ -125,25 +125,28 @@ ul {
 
 /* Desde aqui va la configuracion de las Tarjetas */
 .tarjeta {
-    padding: 200px;
+    display: block;
+    padding: 200px 0 0 0;
+    margin: 0 0 0 0;
     display: flex;
     width: auto;
+    height: auto;
 }
 
 #personal img{
-    width: 35%;
+    width: 45%;
     height: 350px;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
 #formacion img{
 width: 500px;
-height: 450px;
+height: 350px;
 }
 
 #cursos img{
     width: 500px;
-height: 500px;
+height: 400px;
 }
 
 /* Aqui termina la configuracion de las Tarjetas*/
