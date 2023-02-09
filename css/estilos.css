@@ -6,13 +6,13 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --facebook: #339FFF;
     --instagram: #DE7817;
-    --whatsapp: #278A13 ;
-    --github: #4D0E22 ;
-    --discord: #8517DE ;
-    --linkedin: #e64d7b ;
+    --whatsapp: #278A13;
+    --github: #4D0E22;
+    --discord: #8517DE;
+    --linkedin: #e64d7b;
 }
 
 body {
@@ -114,13 +114,14 @@ ul {
     align-items: end;
 }
 
-.offcanvas-header{
+.offcanvas-header {
     background-color: indigo;
 }
 
-.offcanvas-body{
+.offcanvas-body {
     background-color: slateblue;
 }
+
 /* -Fin- Aqui termina todo lo que va dentro del navbar  */
 
 /* Desde aqui va la configuracion de las Tarjetas */
@@ -133,43 +134,45 @@ ul {
     height: auto;
 }
 
-#personal img{
+#personal img {
     width: 45%;
     height: 350px;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
-#formacion img{
-width: 500px;
-height: 350px;
+#formacion img {
+    width: 500px;
+    height: 350px;
 }
 
-#cursos img{
+#cursos img {
     width: 500px;
-height: 400px;
+    height: 400px;
 }
+
 /* Aqui termina la configuracion de las Tarjetas*/
 
 /* Aqui va la conf. del Carousel*/
-.menu-carousel{
+.menu-carousel {
     display: none;
 }
 
-.carousel ul{
+.carousel ul {
+    background-color: yellow;
     list-style: none;
-    margin:0;
-    padding: 30px;
-} 
+    margin: 0;
+    padding: 0 90px 0 90px;
+}
 
-.fotos-carousel img{
+.fotos-carousel img {
     width: 500px;
     height: 350px;
     object-fit: contain;
 }
 
-.fotos-carousel{
+.fotos-carousel {
     display: flex;
-    gap: 200px;
+    gap: 90px;
     overflow: hidden;
 }
 
@@ -249,32 +252,32 @@ input[type="submit"]:hover {
     filter: blur(2px);
 }
 
-.redes-container ul li a:hover{
+.redes-container ul li a:hover {
     transform: translateY(-3px) scale(2.05);
     box-shadow: 0 5px 5px 0 rgb(0, 0, 0, .4);
     filter: none;
 }
 
-.redes-container ul li .facebook:hover{
+.redes-container ul li .facebook:hover {
     background: var(--facebook);
 }
 
-.redes-container ul li .instagram:hover{
+.redes-container ul li .instagram:hover {
     background: var(--instagram);
 }
 
-.redes-container ul li .whatsapp:hover{
+.redes-container ul li .whatsapp:hover {
     background: var(--whatsapp);
 }
 
-.redes-container ul li .github:hover{
+.redes-container ul li .github:hover {
     background: var(--github);
 }
 
-.redes-container ul li .discord:hover{
+.redes-container ul li .discord:hover {
     background: var(--discord);
 }
 
-.redes-container ul li .linkedin:hover{
+.redes-container ul li .linkedin:hover {
     background: var(--linkedin);
 }
