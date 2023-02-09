@@ -125,7 +125,7 @@ ul {
 
 /* Desde aqui va la configuracion de las Tarjetas */
 .tarjeta {
-    padding: auto;
+    padding: 200px;
     display: flex;
     width: auto;
 }
