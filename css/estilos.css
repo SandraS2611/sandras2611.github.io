@@ -114,6 +114,13 @@ ul {
     align-items: end;
 }
 
+.offcanvas-header{
+    background-color: indigo;
+}
+
+.offcanvas-body{
+    background-color: slateblue;
+}
 /* -Fin- Aqui termina todo lo que va dentro del navbar  */
 
 /* Desde aqui va la configuracion de las Tarjetas */
@@ -130,11 +137,9 @@ ul {
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 
 }
-
 /* Aqui termina la configuracion de las Tarjetas*/
 
 /* Aqui va la conf. del Carousel*/
-
 .carousel-item {
     width: 35px;
     height: auto;
