@@ -157,13 +157,11 @@ height: 400px;
 }
 
 .carousel{
-    border: 1px solid rgba(115, 159, 239, 0.763);
     height: 100%;
     position: relative;
 }
 
 .carousel-fotos{
-    background-color: chartreuse;
     height: 100%;
 }
 
@@ -175,7 +173,7 @@ height: 400px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 30px;
 }
 
 a{text-decoration: none;
