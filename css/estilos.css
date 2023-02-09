@@ -151,43 +151,28 @@ height: 400px;
 /* Aqui termina la configuracion de las Tarjetas*/
 
 /* Aqui va la conf. del Carousel*/
-#containerCarousel{
-    display: flex;
-    align-content: center;
-    justify-content: start;
-    height: 350px;
-    width: 100%;
-    overflow: hidden;
-    background-color: rgb(11, 49, 82);;
+.menu-carousel{
+    display: none;
 }
 
-.carousel{
-    height: 100%;
-    position: relative;
-}
-
-.carousel-fotos{
-    align-items: center;
-    height: 100%;
-}
-
-.carousel-flechas{
-    position: absolute;
-    top: 0;
-    height: 90%;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.carousel ul{
+    list-style: none;
+    margin:0;
     padding: 30px;
+} 
+
+.fotos-carousel img{
+    width: 500px;
+    height: 350px;
+    object-fit: contain;
 }
 
-a{text-decoration: none;
+.fotos-carousel{
+    display: flex;
+    gap: 200px;
+    overflow: hidden;
 }
 
-i{
-    color: aqua;
-}
 
 /* Aqui termina la conf. del Carousel*/
 
