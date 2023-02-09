@@ -178,6 +178,9 @@ height: 400px;
     padding: 20px;
 }
 
+a{text-decoration: none;
+}
+
 /* Aqui termina la conf. del Carousel*/
 
 /* formulario de mensajes*/
