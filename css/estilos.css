@@ -151,6 +151,32 @@ height: 400px;
 /* Aqui termina la configuracion de las Tarjetas*/
 
 /* Aqui va la conf. del Carousel*/
+#containerCarousel{
+    height: 250px;
+    overflow: hidden;
+}
+
+.carousel{
+    border: 1px solid rgba(115, 159, 239, 0.763);
+    height: 100%;
+    position: relative;
+}
+
+.carousel-fotos{
+    background-color: chartreuse;
+    height: 100%;
+}
+
+.carousel-flechas{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
 
 /* Aqui termina la conf. del Carousel*/
 
