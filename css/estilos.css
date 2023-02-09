@@ -133,10 +133,19 @@ ul {
 #personal img{
     width: 35%;
     height: 350px;
-    justify-content: start;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-
 }
+
+#formacion img{
+width: 500px;
+height: 450px;
+}
+
+#cursos img{
+    width: 500px;
+height: 500px;
+}
+
 /* Aqui termina la configuracion de las Tarjetas*/
 
 /* Aqui va la conf. del Carousel*/
