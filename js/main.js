@@ -17,5 +17,5 @@ function enviar() {
         text: "Tu mensaje fue enviado",
         icon: "success",
         button: "Listo",
-    }); 
+    }); event.preventDefault();
     }
