@@ -10,3 +10,12 @@ function login(){
         alert("Direccion de Correo o Contraseña invalidos");
     }
 }
+
+function enviar() {
+    swal({
+        title: "Gracias por tu Aporte!!",
+        text: "Tu mensaje fue enviado",
+        icon: "success",
+        button: "Listo",
+    }); 
+    }
