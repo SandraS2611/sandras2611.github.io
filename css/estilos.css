@@ -91,7 +91,7 @@ ul {
     width: 250px;
     border-color: aliceblue;
     border-radius: .5rem;
-    background-color: aqua;
+    background-color: rgb(48, 203, 203);
     color: darkmagenta;
     font-size: 24px;
 }
@@ -214,7 +214,7 @@ button {
 }
 
 button:hover {
-    background-color: #ee96d3;
+    background-color: #37e7be;
 }
 
 /* termina la conf de formulario de mensajes*/
