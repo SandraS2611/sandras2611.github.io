@@ -30,12 +30,15 @@
     padding: 20px;
 }
 
-#tarjeta-1{
-    background-color: rgb(231, 139, 139);
-}
 
 #tarjeta-2{
-    background-color: rgb(139, 231, 162);
+    background-image: url(img/dc3c28c1-3820-4e3a-bc2d-7db2f708f13a.jpg);
+    height: 250px; 
+    width: 500px;
+    background-color: #cccccc;
+    background-position: 100%; 
+    background-repeat: no-repeat; 
+    background-size: cover
 }
 
 #tarjeta-3{
@@ -58,5 +61,10 @@ i{
 #contenedorPuntos > a{
     font-size: 1.5em;
     font-style: none;
+}
+
+.tarjetasCarousel img{
+    width: 100%;
+    height: 100%;
 }
 
