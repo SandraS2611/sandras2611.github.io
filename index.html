@@ -129,29 +129,59 @@
 
   <br>
 
-  <div class="carousel">
-    <a name="carousel" />
-    <ul class="fotos-carousel">
-      <li id="certificado1"><img src="Certificados/AD.png" alt="Alfabetización Digital" </li>
-      <li id="certificado2"><img src="Certificados/AP.png" alt="Alfabetización Digital" </li>
-      <li id="certificado3"><img src="Certificados/CAC.png" alt="Alfabetización Digital" </li>
-      <li id="certificado4"><img src="Certificados/CS.png" alt="Alfabetización Digital" </li>
-      <li id="certificado5"><img src="Certificados/FD.png" alt="Alfabetización Digital" </li>
-      <li id="certificado6"><img src="Certificados/GBD.png" alt="Alfabetización Digital" </li>
-      <li id="certificado7"><img src="Certificados/PW.png" alt="Alfabetización Digital" </li>
-      <li id="certificado8"><img src="Certificados/SP.png" alt="Alfabetización Digital" </li>
-    </ul>
-  </div>
+  <div id="contenedorCarousel">
 
-  <div class="flechas-carousel">
-    <a href="#certificado8">
-      <i>A</i>
-    </a>
-    <a href="#certificado3">
-      <i>D</i>
-    </a>
-  </div>
+    <div class="itemCarousel" id="item-1">
+        <div class="tarjetasCarousel" id="tarjeta-1">
+           <img src="/Certificados/AD.png" alt="Alfabetización Digital">
+        </div>
+        <div class="flechasCarousel">
+            <a href="#item-3">
+                <i class="fa-solid fa-angles-left"></i>
+            </a>
+            <a href="#item-2">
+                <i class="fa-solid fa-angles-right"></i>
+            </a>
+        </div>
+    </div>            
 
+    <div class="itemCarousel" id="item-2">
+        <div class="tarjetasCarousel" id="tarjeta-2">
+            <img src="/Certificados/AP.png" alt="Algoritmos de Programación">
+        </div>
+        <div class="flechasCarousel">
+            <a href="#item-1">
+                <i class="fa-solid fa-angles-left"></i>
+            </a>
+            <a href="#item-3">
+                <i class="fa-solid fa-angles-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="itemCarousel" id="item-3">
+        <div class="tarjetasCarousel" id="tarjeta-3">
+            <img src="/Certificados/CAC.png" alt="Calidad de Atención al Cliente">
+        </div>
+        <div class="flechasCarousel">
+            <a href="#item-2">
+                <i class="fa-solid fa-angles-left"></i>
+            </a>
+            <a href="#item-1">
+                <i class="fa-solid fa-angles-right"></i>
+            </a>
+        </div>
+    </div>        
+    
+</div>
+
+<div id="contenedorPuntos">
+    <a href="#item-1"><i class="fa-solid fa-minus"></i></a> 
+    <a href="#item-2"><i class="fa-solid fa-minus"></i></a> 
+    <a href="#item-3"><i class="fa-solid fa-minus"></i></a>  
+</div>
+
+  
   <br>
 
   <a name="contacto" />

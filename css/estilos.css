@@ -153,25 +153,50 @@ ul {
 /* Aqui termina la configuracion de las Tarjetas*/
 
 /* Aqui va la conf. del Carousel*/
-.carousel ul {
-    background-color: yellow;
-    list-style: none;
-    margin: 0;
-    padding: 0 90px 0 90px;
-}
-
-.fotos-carousel img {
-    width: 500px;
+#contenedorCarousel {
     height: 350px;
-    object-fit: contain;
-}
-
-.fotos-carousel {
-    display: flex;
-    gap: 90px;
+    width: 100%;
     overflow: hidden;
 }
 
+.itemCarousel {
+    height: 100%;
+    position: relative;
+}
+
+.tarjetasCarousel {
+    background-color: rgb(133, 211, 211, 0.3);
+    height: 100%;
+}
+
+.flechasCarousel {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    color: rgb(46, 78, 106);
+}
+
+#contenedorPuntos{
+    display: flex;
+    justify-content: space-around;
+}
+
+#contenedorPuntos > a{
+    font-size: 1.5em;
+    font-style: none;
+}
 
 /* Aqui termina la conf. del Carousel*/
 
