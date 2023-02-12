@@ -16,12 +16,13 @@
 }
 
 body {
+    display: block;
     background-image: url(../img/morado.avif);
     font-family: 'Caveat', cursive;
     background-repeat: repeat;
     background-size: 100%;
-    width: auto;
-    height: auto;
+    background-position: 250px;
+   
 }
 
 
