@@ -33,17 +33,17 @@ h1 {
 
 h2 {
     color: azure;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 h3 {
-    color: coral;
-    font-size: 30px;
+    color: rgb(190, 245, 208);
+    font-size: 35px;
 }
 
 ul {
     display: block;
-    color: tomato;
+    color: rgb(190, 245, 208);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
 }
@@ -89,11 +89,12 @@ ul {
 
 .boton {
     width: 250px;
+    height: 50px;
     border-color: aliceblue;
     border-radius: .5rem;
-    background-color: rgb(48, 203, 203);
-    color: darkmagenta;
-    font-size: 24px;
+    background-color:#dcf8dd;
+    color:darkslateblue;
+    font-size: 20px;
 }
 
 .bg-body-tertiary {
@@ -228,16 +229,16 @@ textarea {
 }
 
 button {
-    background-color: #61de65;
-    color: rgb(24, 2, 2);
-    padding: 12px 20px;
+    background-color: #dcf8dd;
+    color:darkslateblue;
+    padding: 14px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #37e7be;
+    background-color: #9da8f1;
 }
 
 /* termina la conf de formulario de mensajes*/
