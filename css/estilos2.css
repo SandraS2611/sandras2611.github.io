@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Kalam:wght@300;700&family=Ribeye&family=Satisfy&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,14 +11,15 @@ body {
     font-family: 'Caveat', cursive;
 }
 
-header{
-background-color: rgb(240, 247, 153);
+header {
+    background-color: rgb(240, 247, 153);
 }
 
-h1{
+h1 {
     text-align: center;
     color: rgba(137, 105, 233, 0.733);
 }
-p{
+
+p {
     font-size: 32px;
 }
