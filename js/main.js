@@ -19,3 +19,7 @@ function enviar() {
         button: "Listo",
     }); event.preventDefault();
 }
+
+$('.carousel').carousel({
+    interval:1000
+})

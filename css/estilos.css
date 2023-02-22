@@ -154,6 +154,9 @@ ul {
 /* Aqui termina la configuracion de las Tarjetas*/
 
 /* Aqui va la conf. del Carousel*/
+.adaptar{
+    width: 100%;
+}
 
 .carousel {
     overflow: hidden;
