@@ -21,55 +21,57 @@
 <body>
 
   <header>
+    
+    <div class="col-sm col-md col-l col-xl">
+      <nav class="navbar expand-xl">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa">
+            <img src="img/ticmas.jpeg" alt="Logo" class="d-inline-block align-text-center"></a>
 
-    <nav class="navbar expand-md">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa">
-          <img src="img/ticmas.jpeg" alt="Logo" class="d-inline-block align-text-center"></a>
+          <h1>Mi Proyecto CV</h1>
 
-        <h1>Mi Proyecto CV</h1>
+          <div class="containerLogin">
+            <br>
+            <div class="form-group">
+              <input id="correo" type="text" class="form-control" name="username" placeholder="Escribe correo">
+              <input id="contraseña" type="password" class="form-control" name="password"
+                placeholder="Escribe contraseña">
+              <button id="boton" class="boton" onclick="login()">Entrar</button>
+            </div>
+          </div>
 
-        <div class="containerLogin">
-          <br>
-          <div class="form-group">
-            <input id="correo" type="text" class="form-control" name="username" placeholder="Escribe correo">
-            <input id="contraseña" type="password" class="form-control" name="password"
-              placeholder="Escribe contraseña">
-            <button id="boton" class="boton" onclick="login()">Entrar</button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h2 class="offcanvas-title" id="offcanvasNavbarLabel">Bienvenidos!</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="#personal">Información Personal</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#formacion">Formación</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#cursos">Cursos Realizados</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#carousel">Certificados</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </div>
           </div>
         </div>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h2 class="offcanvas-title" id="offcanvasNavbarLabel">Bienvenidos!</h2>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link" href="#personal">Información Personal</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#formacion">Formación</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#cursos">Cursos Realizados</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#carousel">Certificados</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contacto">Contacto</a>
-              </li>
-          </div>
-        </div>
-      </div>
-    </nav>
-
+      </nav>
+    
   </header>
 
   <br>
