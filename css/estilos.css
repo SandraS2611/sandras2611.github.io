@@ -73,6 +73,11 @@ ul {
 }
 
 /* Aqui comienza el navbar*/
+.navbar-brand img{
+    width: 100%;
+    height: 200px;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
 
 .navbar-toggler {
     color: aliceblue;
@@ -143,9 +148,8 @@ ul {
 }
 
 #personal img {
-    width: 45%;
+    width: 500px;
     height: 350px;
-    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
 #formacion img {

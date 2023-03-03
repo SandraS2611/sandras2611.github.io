@@ -6,6 +6,8 @@
     "axe/name-role-value": "off",
     "axe/structure": "off",
     "no-inline-styles": "off",
-    "highest-available-document-mode": "off"
+    "highest-available-document-mode": "off",
+    "meta-viewport": "off",
+    "button-type": "off"
   }
 }
