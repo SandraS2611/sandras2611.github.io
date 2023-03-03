@@ -72,6 +72,8 @@ ul {
     font-family: 'Kalam', cursive
 }
 
+/* Aqui comienza el navbar*/
+
 .navbar-toggler {
     color: aliceblue;
     background-color: transparent;
@@ -113,6 +115,11 @@ ul {
     flex-basis: 100%;
     flex-grow: 1;
     align-items: end;
+}
+
+.nav-item a{
+    font-family: 'Tilt Neon', cursive;
+    color: violet;
 }
 
 .offcanvas-header {
