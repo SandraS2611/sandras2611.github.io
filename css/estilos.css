@@ -43,6 +43,7 @@ h3 {
 
 ul {
     display: block;
+    list-style:none;
     color: rgb(190, 245, 208);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
